@@ -18,7 +18,6 @@ main() {
         curl "http://setup.rbxcdn.com/mac/$version-RobloxPlayer.zip" -o "./RobloxPlayer.zip"
     fi
 
-    rm ./jq
     echo -n "Installing Latest Roblox... "
     [ -d "/Applications/Roblox.app" ] && rm -rf "/Applications/Roblox.app"
     unzip -o -q "./RobloxPlayer.zip"
